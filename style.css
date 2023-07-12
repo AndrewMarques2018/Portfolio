@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+p {
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color:black !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img_perfil {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.corPrimaria {
+    background-color: #3c0404;
+}
+
+.corSecundaria {
+    background-color: #7a1625;
+}
+
+.textosPrimarios {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3c0404;
+}
+
+.textoBranco {
+    color: white !important;
+}
+
+.subTitle {
+    color: rgb(255, 255, 255) !important;
+    font-size: medium;
+}
+
+.titulosSecundario {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7a1625;
+}
+
+.textoFooter {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.row {
+    margin-right: 0px;
+    padding-bottom: 1rem;
+}
+
