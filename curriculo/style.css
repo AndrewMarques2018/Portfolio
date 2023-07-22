@@ -1,0 +1,92 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+li:before {
+    content: "•";
+    margin-right: 1rem;
+}
+
+.apresentacao {
+    margin-bottom: 2rem;
+}
+
+.apresentacao h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.apresentacao p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.apresentacao a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.apresentacao a:hover {
+    text-decoration: underline;
+}
+
+.perfil_profissional {
+    margin-bottom: 2rem;
+}
+
+.perfil_profissional h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.perfil_profissional p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.perfil_profissional a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.perfil_profissional a:hover {
+    text-decoration: underline;
+}
+
+.educacao {
+    margin-bottom: 1rem;
+}
+
+.educacao h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profissional {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.profissional h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cursos {
+    margin-bottom: 3rem;
+}
+
+.cursos-coluna {
+    column-count: 2;
+}
+
+.cursos-coluna ul {
+    margin-top: 0;
+}
